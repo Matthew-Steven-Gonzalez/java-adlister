@@ -35,9 +35,10 @@ public class BeanTest {
         quotesAL.add(dontPanic);
         quotesAL.add(timeIllusion);
         quotesAL.add(clothesMan);
+        System.out.println(quotesAL.size());
 
         for (Quote info:quotesAL) {
-            System.out.println(info.getAuthorFirstName() + info.getAuthorLastName()+ " is the author of this quote.");
+            System.out.println(info.getAuthorFirstName() + " " + info.getAuthorLastName()+ " is the author of this quote.");
 
         }
 
